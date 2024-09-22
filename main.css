@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #080808f1;
+    color: #fff;
+    font-family: system-ui;
+}
+
+.head{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+input{
+    width: 80%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: #363333;
+    margin: 10px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color: #fff;
+}
+
+.price input{
+    width: 20%;
+}
+#total{
+    background: #740303;
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+#total::before{
+    content: "total: ";
+}
+
+.crud button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: #254cfa70;
+    color: #fff;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+table{
+    width: 50%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+@media(max-width:375px){
+   
+  
+    input{
+        width: 100%;
+        height: 30px;
+        outline: none;
+        border: none;
+        background-color: #363333;
+        margin: 10px 20px;
+        border-radius: 4px;
+        padding: 4px;
+        color: #fff;
+    }
+    
+}
+
+
+
+
